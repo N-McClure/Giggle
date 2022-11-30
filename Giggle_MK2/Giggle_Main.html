@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <!-- Title in the Page Tab: Giggle -->
+        <title> Giggle </title>
+
+
+        <!-- CSS to make Stuff Pretty: -->
+        <style>
+            form
+            {
+
+                margin-top: 10px;
+                margin-left: 32%;
+                margin-right: 30%;
+                
+            }
+
+            #Joke_Search
+            {
+                height:30px;
+                width:350px;
+
+                border-radius: 15px;
+            }
+
+            img
+            {
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class = "main">
+
+            <!-- Button with HyperLink to Log-In / Sign-Up: -->
+            <button><a href = "LogIn_SignUp.html">Log-In/Sign-Up</a></button><br>
+
+            <!-- Button with HyperLink to About Us: -->
+            <button><a href = "Our_Team.html">About our Team</a></button><br>
+
+            <!-- The Giggle Logo: -->
+            <img src = "Giggle_Logo.png" height = "275">
+            
+            <!-- Horizontal Line to Seperate: -->
+            <hr>
+
+            <!-- Text Box for the User Search Input: -->
+            <form name = "SearchSomething" action = "Jokes_Temp.html" method = "get">
+            <table>
+                <tr>
+                    <td><input type = "text" id = "Joke_Search" autofocus required placeholder = "  Enter a Joke Type or Comedian:"></td>
+                    <!-- Button to submit the User's Search: -->
+                    <td><input type = "submit" value = "Search" id = "searchButton"></td>
+                </tr>
+            </table>
+            </form>
+
+        </div>
+    </body>
+
+</html>
